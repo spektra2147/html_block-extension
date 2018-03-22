@@ -18,8 +18,7 @@ class AnomalyExtensionHtmlBlockCreateBlocksStream extends Migration
      * @var array
      */
     protected $stream = [
-        'slug'         => 'blocks',
-        'title_column' => 'html',
+        'slug' => 'blocks',
     ];
 
     /**
