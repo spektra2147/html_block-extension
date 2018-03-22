@@ -18,7 +18,8 @@ class AnomalyExtensionHtmlBlockCreateBlocksStream extends Migration
      * @var array
      */
     protected $stream = [
-        'slug' => 'blocks',
+        'slug'         => 'blocks',
+        'translatable' => true,
     ];
 
     /**
@@ -27,7 +28,9 @@ class AnomalyExtensionHtmlBlockCreateBlocksStream extends Migration
      * @var array
      */
     protected $assignments = [
-        'html',
+        'html' => [
+            'translatable' => true,
+        ],
     ];
 
 }
