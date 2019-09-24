@@ -32,5 +32,4 @@ class AnomalyExtensionHtmlBlockCreateBlocksStream extends Migration
             'translatable' => true,
         ],
     ];
-
 }

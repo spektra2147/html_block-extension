@@ -41,5 +41,4 @@ class HtmlBlockExtension extends BlockExtension
      * @var string
      */
     protected $model = BlockModel::class;
-
 }

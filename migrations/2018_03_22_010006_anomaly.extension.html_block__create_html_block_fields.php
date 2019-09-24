@@ -20,5 +20,4 @@ class AnomalyExtensionHtmlBlockCreateHtmlBlockFields extends Migration
     protected $fields = [
         'html' => 'anomaly.field_type.editor',
     ];
-
 }
