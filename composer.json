@@ -33,5 +33,11 @@
         "psr-4": {
             "Anomaly\\HtmlBlockExtension\\": "src/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Anomaly\\HtmlBlockExtensionTest\\": "tests/",
+            "Database\\Factories\\Anomaly\\HtmlBlockExtension\\": "factories/"
+        }
     }
 }
