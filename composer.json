@@ -1,5 +1,5 @@
 {
-    "name": "anomaly/html_block-extension",
+    "name": "visiosoft/html_block-extension",
     "type": "streams-addon",
     "description": "Arbitrary HTML code.",
     "keywords": [
